@@ -27,6 +27,7 @@
 	text-shadow: 0 2px 3px rgba(0,0,0,0.4);
 
 }
+
 .home-main {
 	background: image-url('../assets/lbanner.jpg') no-repeat center center;
 	background-size: cover;
@@ -37,7 +38,40 @@
 	top: 250px;
 	text-align: center;
 }
-
+.about-main {
+	background: image-url('../assets/sbanner1.jpg') no-repeat center center;
+	background-size: cover;
+	height: 700px;
+}
+.about-main .content {
+	position: relative;
+	top: 250px;
+	text-align: center;
+}
+.new-main {
+	background: image-url('../assets/sbanner2.jpg') no-repeat center center;
+	background-size: cover;
+	height: 700px;
+	color: #fff;
+}
+.new-main .content {
+	position: relative;
+	top: 100px;
+}
+form{text-align:left;}
+.form-control {
+	display: block;
+	width: 80%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
 h1 {
 	font-size: 50px;
 }
@@ -59,3 +93,5 @@ h1 {
 	left: 30px;
 	cursor: pointer;
 }
+.btn {color: #000; margin: -10px;}
+input{color: #000;}
